@@ -10,6 +10,7 @@ Procedure
 2. Split Price feature into bands to better visualise the spread of house prices. EDA shows that 67% of houses are sold in band 3-6 (200k - 600k), with the highest number of houses 19.7%, located in price band 4 (300k - 400k)
 
 3. We then move on to modelling. 
+
 LR: We start our modelling off with Linear Regression. This gives us a score of around 58% which is only slightly better then randomly guessing.
 
 KNN: Firstly, we scale the data using a StandardScaler as it is nesscessary to scale the features in order to make sure that one featrure does not outweigh another based on its scale. We obtained a slightly improved score of 59%.
